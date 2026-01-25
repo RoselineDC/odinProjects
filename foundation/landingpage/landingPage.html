@@ -1,84 +1,112 @@
 <!DOCTYPE html>
 
 <html>
-  <head><title> landing Page</title> </head>
-  <body style="font: roboto;">
-    <header style="background-color: #1F2937;">
-      <nav style="font-size: 18px; color: #e5e7eb;">
-        My Landing Page
-        <ul>
-          <i> Home </i>
-          <i> About </i>
-          <i> Footer </i>
-        </ul>
-      </nav>
-   
-   
-      <div>
-        <div style="background-color: #1F2937; color: #f9faf8; font-weight: 900;">
-          <div>
-            <h2 style="font-size: 48px; ">This wesite is awesome</h2>
-            <p style="font-size: 18px; color: #e5e7eb;">
-              This website has some subtext that goes under the main title It's
-              smakker font and the color is lower contaxt
-            </p>
-            <button style="background-color: #3882f6;">Sign Up</button>
-          </div>
-          <div>
-            <img src="placeholder.png" alt="myimage" />
-          </div>
-        </div>
-         </header>
-         <main>
 
-        <!-- second section -->
+<head>
+  <title> landing Page</title>
+  <link rel="stylesheet" href="homePagestyle.css">
+</head>
+
+<body>
+  <header id="home">
+    <nav>
+      <p class="myHeader">My Landing Page</p>
+
+      <ul>
+        <li> <a href="#home">Home </a> </li>
+        <li> <a href="#about"> About </li>
+        <li> <a href="#contact"> Contact </li>
+      </ul>
+    </nav>
+
+
+    <div class="hero">
+      <div class="hero-text">
         <div>
-          <h2 style="font-size: 36px; color: #1F2937; font-weight: 900; text-transform: capitalize;"> Some random information</h2>
+          <h2>This wesite is awesome</h2>
+          <p class="subtext">
+            This website has some subtext that goes under the main title It's
+            smakker font and the color is lower contaxt
+          </p>
+          <button style="background-color: #3882f6;">Sign Up</button>
 
-          <div>
-            <img src="image1.png" alt="my image1" />
-            <p>this is some subtext under an illustration or image</p>
-            <img src="image12.png" alt="my image12" />
-            <p>this is some subtext under an illustration or image</p>
-            <img src="image13.png" alt="my image31" />
-            <p>this is some subtext under an illustration or image</p>
-            <img src="image14.png" alt="my image14" />
-            <p>this is some subtext under an illustration or image</p>
-          </div>
         </div>
 
-        <!-- thired section -->
+        <div class="img-folder">
+          <img src="https://picsum.photos/400/200" alt="myimage" />
+        </div>
+      </div>
+
+    </div>
+
+  </header>
+  <main>
+
+    <!-- second section -->
+    <div class="second-section">
+      <h2> Some random information</h2>
+
+      <div class="img-folder">
+        <div class="img-style">
+          <img src="https://picsum.photos/200/?random=1" alt="my image1" />
+          <p>this is some subtext under an illustration or image</p>
+        </div>
+        <div class="img-style">
+          <img src="https://picsum.photos/200/?random=2" alt="my image2" />
+          <p>this is some subtext under an illustration or image</p>
+        </div>
+        <div class="img-style">
+          <img src="https://picsum.photos/200/?random=3" alt="my image3" />
+          <p>this is some subtext under an illustration or image</p>
+        </div>
+        <div class="img-style">
+          <img src="https://picsum.photos/200/?random=4" alt="my image4" />
+          <p>this is some subtext under an illustration or image</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+  <!-- thired section -->
+  <div class="third-section">
+    <p class="quotedText">
+      <i >
+        This is an inspiring quote, or a testimonial from a customer.
+        Maybey it's just filling up space, or maybe people will actually
+        read it. Who knows? All I know is this looks nice
+      </i>
+      <b>-Thor, God of Thunder</b>
+    </p>
+  </div>
+  </div>
+  </main>
+  <footer>
+    <div >
+      <div  class="upperfooter">
+        <!-- upper footer -->
         <div>
+          <h2>Call to action! Its time!</h2>
           <p>
-            <i style="background-color: #e5e7eb; font-size: 36px; font-weight: 300; color: #1F2937;">
-              This is an inspiring quote, or a testimonial from a customer.
-              Maybey it's just filling up space, or maybe people will actually
-              read it. Who knows? All I know is this looks nice
-            </i>
-            <b>-Thor, God of Thunder</b>
+          
+          Sign up for product by clicking right over
+          there
           </p>
         </div>
-      </div>
-    </main>
-    <footer>
-      <div style="">
-        <div style="background-color: #3882f6;">
-          <!-- upper footer -->
-          <div>
-            call to action! Its time! Sign up for product by clicking right over
-            there
-          </div>
-          <div>
-            <button>
-                sign up
-            </button>
-          </div>
+        <div>
+          <button>
+            sign up
+          </button>
         </div>
-        <!-- lowwer footer -->
-         <p style="background-color: #1F2937; text-align: center; color: #e5e7eb; font-weight: 300; font-size: 19px;">
-            Copyright @ The Odin Project 2021
-         </p>
       </div>
-    </footer>
-  </body>
+     
+    </div>
+     
+  </footer>
+  <!-- lowwer footer -->
+      <p class="footer"  >
+        Copyright @ The Odin Project 2021
+      </p>
+</body>
+
 </html>
