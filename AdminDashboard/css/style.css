@@ -1,0 +1,127 @@
+/* Reset */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* icons */
+i {
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* MAIN LAYOUT */
+.mainDiv {
+    display: grid;
+    grid-template-columns: 220px 1fr 300px;
+
+    width: 100%;
+    min-height: 100vh;
+    margin-left: 40px;
+}
+
+/* SIDEBAR */
+.sidediv {
+    background-color: #4081f9;
+    color: white;
+    padding: 20px;
+}
+
+/* CENTER SECTION */
+.middleDiv {
+    padding: 20px;
+}
+
+/* RIGHT PANEL */
+.rightDiv {
+    /* padding: 20px; */
+}
+
+/* TOP NAVBAR */
+.upperNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* SEARCH AREA */
+.formDiv {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* SEARCH INPUT */
+.search-input {
+    border: none;
+    outline: none;
+    background: #b6cbf3;
+    padding: 6px 12px;
+    border-radius: 6px;
+    width: 500px;
+}
+
+/* BUTTONS */
+.buttonLength {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* PROFILE + NOTIFICATIONS */
+.left-div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* ACTION BUTTONS */
+button {
+    padding: 8px 14px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* seconf div */
+.secondNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* left profile section */
+.secondNav div:first-child {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* buttons section */
+.secondNav div:last-child {
+  display: flex;
+  gap: 10px;
+}
+
+.secondNav button {
+  background: #2f8fdd;
+  color: white;
+  border: none;
+  padding: 6px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.profileInfo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.actionButtons {
+  display: flex;
+  gap: 10px;
+}
